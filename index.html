@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="User Input, with JavaScript">
+    <meta name="keywords" content="Immaculata, ICS20">
+    <meta name="author" content="Edward McNamara">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="./fav1_index/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./fav1_index/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./fav1_index/favicon-16x16.png">
+    <link rel="manifest" href="./fav1_index/site.webmanifest">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <title>Calculate Volume of a Triangular Pyramid in JS</title>
+  </head>
+  <body>
+    <script src="./js/script.js"></script>
+    <h1>Calculate Volume of a Triangular Pyramid in JS</h1>
+
+<h3>Please put the dimensions of your trapezoid in cm below:</h3>
+<form action="javascript:calcAreaClicked()">
+<label for="side-a">Side a:</label>
+<input type="number" step="any" id="side-a" placeholder="Side a length"><br><br>
+<label for="side-b">Side b:</label>
+<input type="number" step="any" id="side-b" placeholder="Side b length"><br><br>
+<label for="height">Height:</label>
+<input type="number" step="any" id="height" placeholder="Height"><br><br>
+  <!-- Raised button with ripple -->
+<button type="submit" value="Calculate" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect"> 
+  Calculate Volume
+</button>
+</form>
+
+<!-- Results -->
+<div id="display-results">
+<div id="area">
+</div>
+</div>
+<img src="./images/pyramid.png" alt="pyramid">
+  </body>
+</html>
